@@ -14,6 +14,14 @@
 		F0392B552154516C00A4978E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0392B532154516C00A4978E /* LaunchScreen.storyboard */; };
 		F0392B602154516C00A4978E /* VirtualPetApp_Lab2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0392B5F2154516C00A4978E /* VirtualPetApp_Lab2Tests.swift */; };
 		F0392B6B2154516C00A4978E /* VirtualPetApp_Lab2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0392B6A2154516C00A4978E /* VirtualPetApp_Lab2UITests.swift */; };
+		F0392B7B2154519E00A4978E /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0392B7A2154519E00A4978E /* DisplayView.swift */; };
+		F0AFEC9F21584A6C000BA0CE /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AFEC9E21584A6C000BA0CE /* Animal.swift */; };
+		F0AFECA7215894B5000BA0CE /* cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AFECA2215894B4000BA0CE /* cat.mp3 */; };
+		F0AFECA8215894B5000BA0CE /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AFECA3215894B4000BA0CE /* bell.mp3 */; };
+		F0AFECA9215894B5000BA0CE /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AFECA4215894B4000BA0CE /* water.mp3 */; };
+		F0AFECAA215894B5000BA0CE /* dog.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AFECA5215894B5000BA0CE /* dog.mp3 */; };
+		F0AFECAB215894B5000BA0CE /* bird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AFECA6215894B5000BA0CE /* bird.mp3 */; };
+		F0AFECAD2158A6F3000BA0CE /* jump.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F0AFECAC2158A6F3000BA0CE /* jump.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,15 @@
 		F0392B662154516C00A4978E /* VirtualPetApp-Lab2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VirtualPetApp-Lab2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0392B6A2154516C00A4978E /* VirtualPetApp_Lab2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualPetApp_Lab2UITests.swift; sourceTree = "<group>"; };
 		F0392B6C2154516C00A4978E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0392B782154519700A4978E /* VirtualPetApp-Lab2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "VirtualPetApp-Lab2"; sourceTree = SOURCE_ROOT; };
+		F0392B7A2154519E00A4978E /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayView.swift; path = ../../DisplayView.swift; sourceTree = "<group>"; };
+		F0AFEC9E21584A6C000BA0CE /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		F0AFECA2215894B4000BA0CE /* cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cat.mp3; sourceTree = "<group>"; };
+		F0AFECA3215894B4000BA0CE /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
+		F0AFECA4215894B4000BA0CE /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		F0AFECA5215894B5000BA0CE /* dog.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dog.mp3; sourceTree = "<group>"; };
+		F0AFECA6215894B5000BA0CE /* bird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bird.mp3; sourceTree = "<group>"; };
+		F0AFECAC2158A6F3000BA0CE /* jump.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jump.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +94,12 @@
 		F0392B3E2154516A00A4978E = {
 			isa = PBXGroup;
 			children = (
+				F0AFECAC2158A6F3000BA0CE /* jump.mp3 */,
+				F0AFECA3215894B4000BA0CE /* bell.mp3 */,
+				F0AFECA6215894B5000BA0CE /* bird.mp3 */,
+				F0AFECA2215894B4000BA0CE /* cat.mp3 */,
+				F0AFECA5215894B5000BA0CE /* dog.mp3 */,
+				F0AFECA4215894B4000BA0CE /* water.mp3 */,
 				F0392B492154516B00A4978E /* VirtualPetApp-Lab2 */,
 				F0392B5E2154516C00A4978E /* VirtualPetApp-Lab2Tests */,
 				F0392B692154516C00A4978E /* VirtualPetApp-Lab2UITests */,
@@ -97,12 +120,15 @@
 		F0392B492154516B00A4978E /* VirtualPetApp-Lab2 */ = {
 			isa = PBXGroup;
 			children = (
+				F0392B7A2154519E00A4978E /* DisplayView.swift */,
+				F0392B782154519700A4978E /* VirtualPetApp-Lab2 */,
 				F0392B4A2154516B00A4978E /* AppDelegate.swift */,
 				F0392B4C2154516B00A4978E /* ViewController.swift */,
 				F0392B4E2154516B00A4978E /* Main.storyboard */,
 				F0392B512154516C00A4978E /* Assets.xcassets */,
 				F0392B532154516C00A4978E /* LaunchScreen.storyboard */,
 				F0392B562154516C00A4978E /* Info.plist */,
+				F0AFEC9E21584A6C000BA0CE /* Animal.swift */,
 			);
 			path = "VirtualPetApp-Lab2";
 			sourceTree = "<group>";
@@ -230,8 +256,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0392B552154516C00A4978E /* LaunchScreen.storyboard in Resources */,
+				F0AFECA8215894B5000BA0CE /* bell.mp3 in Resources */,
+				F0AFECAD2158A6F3000BA0CE /* jump.mp3 in Resources */,
+				F0AFECA9215894B5000BA0CE /* water.mp3 in Resources */,
+				F0AFECA7215894B5000BA0CE /* cat.mp3 in Resources */,
 				F0392B522154516C00A4978E /* Assets.xcassets in Resources */,
 				F0392B502154516B00A4978E /* Main.storyboard in Resources */,
+				F0AFECAA215894B5000BA0CE /* dog.mp3 in Resources */,
+				F0AFECAB215894B5000BA0CE /* bird.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0392B7B2154519E00A4978E /* DisplayView.swift in Sources */,
+				F0AFEC9F21584A6C000BA0CE /* Animal.swift in Sources */,
 				F0392B4D2154516B00A4978E /* ViewController.swift in Sources */,
 				F0392B4B2154516B00A4978E /* AppDelegate.swift in Sources */,
 			);
